@@ -13,7 +13,7 @@ const bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-// Cors for cross origin allowance
+// no no that wrong
 const cors = require('cors');
 app.use(cors());
 
